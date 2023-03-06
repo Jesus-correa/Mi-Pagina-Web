@@ -10,3 +10,7 @@ const port = process.env.PORT || 3000
 app.listen(3000,() => {
     console.log("http://localhost:"+ port);
 });
+
+app.get('/', (res, req) => {
+    res.sendFile(path.resolve(__dirname, './views/home.html'))
+})

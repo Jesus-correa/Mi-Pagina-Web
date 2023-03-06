@@ -11,9 +11,17 @@ header{
 header section{
     border: solid 2px #730f0f
 }
+header h1{
+    font-size: 6vw;
+}
+
+header p{
+    font-size: 2vw;
+}
 
 .contenido{
     display: flex;
+    font-size: 4vw;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -25,4 +33,11 @@ a{
     color: black;
 }    
 
-
+@media (min-width:690px){
+    .contenido{
+        flex-direction: row;
+    }
+    .contenido a{
+        padding: 20px;
+    }
+}

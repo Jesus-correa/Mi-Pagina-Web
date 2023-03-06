@@ -11,6 +11,6 @@ app.listen(3000,() => {
     console.log("http://localhost:"+ port);
 });
 
-app.get('/', (res, req) => {
+app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/home.html'))
 })

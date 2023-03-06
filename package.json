@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
   },
   "name": "mi-pagina-web",
   "version": "1.0.0",
-  "main": "app.js",
-  "devDependencies": {},
+  "main": "/src/app.js",
   "scripts": {
     "test": "node app.js",
     "start": "nodemon app.js"

@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 
 }
+
+body{
+    background-image: url("/images/fondo-home.jpg");
+}
 header{
     width: auto;
     background-color: #f04848;
@@ -28,7 +32,7 @@ header img{
 
 .contenido{
     display: flex;
-    font-size: 4vw;
+    font-size: 2vw;
     flex-wrap: wrap;
     flex-direction: column;
 }

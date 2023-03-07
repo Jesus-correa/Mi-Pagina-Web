@@ -19,6 +19,13 @@ header p{
     font-size: 2vw;
 }
 
+header img{
+    width: 40px;
+    position:absolute;
+    right: 20px;
+    top: 2px;
+}
+
 .contenido{
     display: flex;
     font-size: 4vw;
@@ -33,11 +40,15 @@ a{
     color: black;
 }    
 
-@media (min-width:690px){
+@media (min-width:670px){
     .contenido{
         flex-direction: row;
     }
     .contenido a{
+        font-size: 30px;
         padding: 20px;
+    }
+    header img{
+        width: 80px;
     }
 }

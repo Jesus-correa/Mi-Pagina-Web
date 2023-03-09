@@ -35,10 +35,12 @@ header img{
     font-size: 2vw;
     flex-wrap: wrap;
     flex-direction: column;
-}
-li{
-    list-style:none;
-}
+    }
+
+    
+    li{
+        list-style:none;
+    }
 a{
     text-decoration: none;
     color: black;
@@ -54,5 +56,9 @@ a{
     }
     header img{
         width: 80px;
+    }
+    .exclusivo, .gratuito {
+        padding:1px, 1px, 1px, 1px;
+        border:solid blue 2px;
     }
 }

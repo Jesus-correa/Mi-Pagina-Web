@@ -46,7 +46,7 @@ a{
 
 
 
-@media (min-width:420px){
+/* @media (min-width:420px){
     .contenido{
         display: flex;
         flex-direction: row;
@@ -56,9 +56,9 @@ a{
         padding: 20px;
     }
     header img{
-/*         width: 80px; */
+        width: 80px;
     }
     .premium{
         text-align: left;
     }
-}
+} */

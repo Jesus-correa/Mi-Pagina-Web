@@ -1,19 +1,23 @@
 *{
     margin:0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 body{
     background-image: url("/images/fondo-home.jpg");
+
 }
 header{
     width: auto;
     background-color: #f04848;
+    border-bottom: solid 2px #730f0f;
     text-align: center;
+    border-right: solid 2px #730f0f;
+    border-left: solid 2px #730f0f;
 }
 header section{
-    border: solid 2px #730f0f
+    border: solid 2px #730f0f;
 }
 header h1{
     font-size: 6vw;
@@ -30,39 +34,31 @@ header img{
     top: 2px;
 }
 
-.contenido{
-    display: flex;
-    font-size: 2vw;
-    flex-wrap: wrap;
-    flex-direction: column;
-    }
-
     
-    li{
-        list-style:none;
+li{
+    list-style:none;
     }
+    
 a{
     text-decoration: none;
     color: black;
 }    
 
-.premium, .gratuito {
-    color:aqua;
-}
 
-@media (min-width:670px){
+
+@media (min-width:420px){
     .contenido{
-        flex-direction: row;
         display: flex;
+        flex-direction: row;
     }
     .contenido a{
         font-size: 30px;
         padding: 20px;
     }
     header img{
-        width: 80px;
+/*         width: 80px; */
     }
     .premium{
-        justify-self: flex-end;
+        text-align: left;
     }
 }

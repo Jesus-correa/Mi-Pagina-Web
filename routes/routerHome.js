@@ -6,7 +6,11 @@ router.get('/', (req, res) => {
 });
 
 router.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/gratuito.html'))
+    res.sendFile(path.resolve(__dirname, './views/free.html'))
+});
+
+router.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/premium.html'))
 });
 
 module.exports = router;

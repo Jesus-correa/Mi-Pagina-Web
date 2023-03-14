@@ -46,9 +46,14 @@ a{
     color: black;
 }    
 
+.premium, .gratuito {
+    color:aqua;
+}
+
 @media (min-width:670px){
     .contenido{
         flex-direction: row;
+        display: flex;
     }
     .contenido a{
         font-size: 30px;
@@ -57,8 +62,7 @@ a{
     header img{
         width: 80px;
     }
-    .exclusivo, .gratuito {
-        padding:1px, 1px, 1px, 1px;
-        border:solid blue 2px;
+    .premium{
+        justify-self: flex-end;
     }
 }

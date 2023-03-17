@@ -1,0 +1,24 @@
+{
+  "name": "mi-pagina-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesus-correa/Mi-Pagina-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesus-correa/Mi-Pagina-Web/issues"
+  },
+  "homepage": "https://github.com/Jesus-correa/Mi-Pagina-Web#readme",
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
